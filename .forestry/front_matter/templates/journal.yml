@@ -32,4 +32,5 @@ fields:
   label: Author
   default: ''
 pages:
+- journal/first-test-article.md
 - journal/macos-development-environment.md
