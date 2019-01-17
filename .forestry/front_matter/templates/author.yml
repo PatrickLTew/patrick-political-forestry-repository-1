@@ -1,5 +1,5 @@
 ---
-label: Author
+label: Patrick Tew
 hide_body: true
 is_partial: false
 fields:
@@ -8,6 +8,7 @@ fields:
   name: title
   config:
     required: true
+  default: Patrick Tew
 - type: textarea
   name: bio
   label: Bio
