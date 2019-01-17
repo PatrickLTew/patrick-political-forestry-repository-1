@@ -4,7 +4,7 @@
     <div class="container">
       <div class="journal-hero">
         <h1 class="journal-header">
-          a wise person once said...
+         Blog Roll 
         </h1>
       </div>
     </div>
@@ -54,19 +54,20 @@ export default {
   color: var(--color-base-1);
 }
 .journal-header {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   padding: 0;
+  line-height: 1;
   margin: 0;
 }
 .journal-post {
   display: block;
-  padding: 2rem 0;
+  padding: 1rem 0;
   text-decoration: none;
-  transition: background 0.5s ease;
+  transition: background 0.4s ease;
 }
 .journal-post > * {
-  transition: transform 0.5s ease;
+  transition: transform 0.4s ease;
 }
 .journal-post:hover {
   background-color: var(--color-base-1);
@@ -85,17 +86,18 @@ export default {
 }
 .journal-excerpt {
   color: var(--color-contrast-1);
+  margin: -0.1rem 0 0 0.2rem;
 }
 
 @media (min-width: 560px) {
   .journal-post {
-    padding: 3rem 0;
+    padding: 1rem 0;
   }
 }
 
 @media (min-width: 860px) {
   .journal-post {
-    padding: 5rem 0;
+    padding: 3rem 0;
   }
 }
 </style>
