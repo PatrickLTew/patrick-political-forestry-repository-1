@@ -8,6 +8,7 @@ fields:
   label: Title
   config:
     required: true
+  default: Articles Test Title
 - type: textarea
   name: excerpt
   label: Excerpt
