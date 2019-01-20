@@ -39,6 +39,7 @@ fields:
   description: This is a test field
   config:
     required: false
+  default: Hello There!
 pages:
 - journal/first-test-article.md
 - journal/macos-development-environment.md
