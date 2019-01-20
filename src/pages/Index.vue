@@ -2,7 +2,7 @@
   <Layout>
     <div class="container">
       <Hero />
-      <ProjectsGrid :projects="$page.projects.edges" />
+      
     </div>
     <LatestJournals :journals="$page.journals.edges" />
   </Layout>
@@ -12,7 +12,7 @@
 query Posts {
 	projects: allProjectPost {
     edges {
-      node {
+      node {	
         id
         date (format: "D. MMMM YYYY")
         title
