@@ -47,3 +47,11 @@ export default {
   }
 }
 </script>
+
+<style>
+hero{
+position: absolute;
+top: 0%;
+left:0%;
+}
+</style>
