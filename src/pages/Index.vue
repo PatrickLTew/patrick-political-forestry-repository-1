@@ -2,7 +2,7 @@
   <Layout>
     <div class="container">
       <Hero />
-      
+      <h3>This is a TEST</h3>
     </div>
     <LatestJournals :journals="$page.journals.edges" />
   </Layout>
