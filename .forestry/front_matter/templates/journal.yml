@@ -1,5 +1,5 @@
 ---
-label: Journal
+label: Articles
 hide_body: false
 is_partial: false
 fields:
@@ -30,7 +30,7 @@ fields:
     options:
     - Nichlas W. Andersen
   label: Author
-  default: ''
+  default: Nichlas W. Andersen
 pages:
 - journal/first-test-article.md
 - journal/macos-development-environment.md
