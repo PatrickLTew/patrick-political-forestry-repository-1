@@ -1,6 +1,7 @@
 <template>
   <div class="layout" :class="{ 'sticky-header': $route.path === '/' }">
-    <Header />
+    <Header id="layoutHeader"> </Header>
+    <h3> This is a TEST in Layout </h3>
     <slot/>
     <Footer />
   </div>
@@ -82,4 +83,10 @@ img {
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
+
+#layoutHeader{
+  color: blue;
+}
+
+
 </style>
