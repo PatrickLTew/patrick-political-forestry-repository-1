@@ -38,7 +38,7 @@ fields:
   label: Where TF does this go?
   description: This is a test field
   config:
-    required: false
+    required: true
   default: Hello There!
 pages:
 - journal/first-test-article.md
