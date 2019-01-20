@@ -32,6 +32,13 @@ fields:
     - Nichlas W. Andersen
   label: Author
   default: Nichlas W. Andersen
+- type: boolean
+- type: text
+  name: where_tf_does_this_go_
+  label: Where TF does this go?
+  description: This is a test field
+  config:
+    required: false
 pages:
 - journal/first-test-article.md
 - journal/macos-development-environment.md
