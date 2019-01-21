@@ -11,7 +11,7 @@
                 </g-link>
             </div>
             <nav class="nav right">
-                <g-link class="nav__link" :to="{ name: 'journal' }">Journal</g-link>
+                <g-link class="nav__link" :to="{ name: 'journal' }">Articles</g-link>
                 <g-link class="nav__link" :to="{ name: 'contact' }">Say Hi!</g-link>
             </nav>
         </div>
@@ -70,6 +70,7 @@ export default {
     border-bottom: 1px solid;
     border-color: transparent;
     transition: border 0.15s;
+    color: black;
 }
 .nav > *:last-of-type {
     margin: 0;
