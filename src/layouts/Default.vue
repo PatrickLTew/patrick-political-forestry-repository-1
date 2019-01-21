@@ -85,7 +85,7 @@ img {
 }
 
 #layoutHeader{
-  color: blue;
+  color: black;
 }
 
 
