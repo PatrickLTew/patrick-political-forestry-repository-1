@@ -28,18 +28,9 @@ fields:
       section: authors
       file: data/authors/nichlas-w-andersen.json
     required: true
-    options:
-    - Nichlas W. Andersen
+    options: []
   label: Author
   default: Nichlas W. Andersen
-- type: boolean
-- type: text
-  name: where_tf_does_this_go_
-  label: Where TF does this go?
-  description: This is a test field
-  config:
-    required: true
-  default: Hello There!
 - type: file
   name: banner_image_for_article
   label: Banner Image for Article
