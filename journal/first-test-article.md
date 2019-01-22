@@ -10,4 +10,4 @@ banner_image_for_article: "/uploads/ian-dooley-281897-unsplash.jpg"
 ---
 Hello There! This is my sample article.
 
-!\[\](/uploads/mike-dorner-173502-unsplash.jpg)
+![](/uploads/mike-dorner-173502-unsplash.jpg)
