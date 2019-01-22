@@ -5,6 +5,7 @@ date: 2019-01-17 00:00:00 +0000
 author: Nichlas W. Andersen
 undefined: false
 where_tf_does_this_go_: Hmmm, this might be where it goes!
+banner_image_for_article: "/uploads/ian-dooley-281897-unsplash.jpg"
 
 ---
 Hello There! This is my sample article.
