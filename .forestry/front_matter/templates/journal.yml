@@ -28,9 +28,10 @@ fields:
       section: authors
       file: data/authors/nichlas-w-andersen.json
     required: true
-    options: []
+    options:
+    - Patrick Tew
   label: Author
-  default: Nichlas W. Andersen
+  default: ''
 - type: file
   name: banner_image_for_article
   label: Banner Image for Article
