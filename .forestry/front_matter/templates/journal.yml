@@ -40,6 +40,10 @@ fields:
   config:
     required: true
   default: Hello There!
+- type: file
+  name: banner_image_for_article
+  label: Banner Image for Article
+  description: The image that accompanies the article
 pages:
 - journal/first-test-article.md
 - journal/macos-development-environment.md
