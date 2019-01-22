@@ -1,7 +1,7 @@
 <template>
     <footer class="footer">
         <div class="container">
-            <span :style="{textAlign: 'center'}" v-html="settings.footer" />
+            <span v-html="settings.footer" />
         </div>
     </footer>
 </template>
