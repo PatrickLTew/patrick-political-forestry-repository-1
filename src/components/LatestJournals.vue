@@ -38,8 +38,7 @@ export default {
   border: 1px solid var(--color-base-1);
 }
 .latest-journals > .container {
-  display: flex;
-  flex-wrap: wrap;
+
 }
 .journal {
   flex: 0 0 100%;
